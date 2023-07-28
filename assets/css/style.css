@@ -253,12 +253,6 @@ header {
         .direction {width: calc(50% - 340px/2);}
     }
 }
-@media screen and (max-width: 455px) {
-    .content section.explore-products {
-        .form-list-products {width: 160px;}
-        .direction {width: calc(50% - 160px/2);}
-    }
-}
 
 
     /* Explore-stores */
