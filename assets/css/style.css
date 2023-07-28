@@ -250,7 +250,9 @@ header {
 @media screen and (max-width: 635px) {
     .content section.explore-products {
         .form-list-products {width: 340px;}
-        .direction {width: calc(50% - 340px/2);}
+        .direction {
+            & button {display: none !important}
+        }
     }
 }
 
