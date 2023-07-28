@@ -1,0 +1,37 @@
+header {
+    --header--background-color: #fbfbfd !important;
+    --header--text-color: black !important;
+    --header--icon-color-hover: gainsboro !important;
+}
+
+.main-content section.products {
+    overflow: hidden;
+    .image-sup {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .sp-content {
+        .sp-heading {
+            font-size: 3.5rem;
+            text-align: center;
+            margin: 60px 0;
+        }
+        .sp-list-items {
+            padding: 0 30px;
+            display: flex;
+                justify-content: space-evenly;
+            .sp-item {
+                & a {
+                    display: block;
+                    font-size: 1.2rem;
+                    margin: 15px 0;
+                    text-decoration: none;
+                    &:visited, &:link {color: black;}
+                    &:hover {text-decoration: underline;}
+                    &:active {color: orangered; text-decoration: underline;}
+                }
+            }
+        }
+    }
+}
